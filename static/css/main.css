@@ -1,0 +1,107 @@
+@media only screen and (min-width: 600px) {
+   .navbar-mid{
+       background: rgba(255, 255, 255, 0.80);
+       border-bottom: black;
+       margin-top: 50px;
+       height: 80px;
+   }
+
+    .navbar-top{
+        background: rgba(255, 255, 255, 0.80);
+        border-bottom: black;
+        height: 80px;
+    }
+
+    #navbar-brand-img{
+        min-height: 100px;
+        margin-top: 0px;
+    }
+
+    #navbar-brand-text{
+        font-size: 2em;
+        font-weight: 100;
+        color: black;
+        margin-top: 15px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .navbar-link{
+        text-decoration-color: black;
+        font-size: 1.2em;
+        margin-top: 15px;
+        font-weight: bold;
+        transition: font-size 500ms;
+    }
+
+
+    .navbar-link:hover{
+        text-decoration-color: black;
+        font-size: 1.5em;
+        margin-top: 15px;
+        font-weight: bold;
+        transition: font-size  200ms;
+    }
+
+    .carousel-inner > .item > img {
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 599px){
+    #myCarousel{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+body{
+    background: #f7f7f7;
+}
+
+.budget-circle{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: solid 3px;
+    border-color: black ;
+    font-size: 1.5em;
+    display: table;
+    width: 100%;
+}
+
+.budget-circle h3{
+    font-size: 1.2em;
+}
+.budget-circle-div{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.budget-circle-h{
+    font-weight: bolder;
+}
+
+.glyphicon-star{
+    color: #d1d100;
+}
+
+footer{
+    width: 500px;
+    background: black;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.footer-contact-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="static/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/main.css">
+
+    <script type="text/javascript" src="static/jquery/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<script type="text/javascript" src="static/js/index.js"></script>
+
+<!--Navigation Bar-->
+<nav class="navbar navbar-default navbar-fixed-top navbar-mid">
+    <div class="container-fluid container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a></a>
+            <a class="navbar-brand nav-top-click" href="#" style="margin-left: -10px;">
+                <img id="navbar-brand-img" style="max-height: 60px; margin-top: -20px;"src="static/images/elephant.png" class="img-responsive">
+            </a>
+            <a class="navbar-brand nav-top-click" href="#" >
+                <p id="navbar-brand-text" style="font-weight: 900; margin-left: -15px; font-size: 1.2em" >GOLAN TOURS</p>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-right: 15px;">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="navbar-link" href="#" id="nav-about">About</a></li>
+                <li><a class="navbar-link" href="#" id="nav-packages">Packages</a></li>
+                <li><a class="navbar-link" href="#" id="nav-places">Places</a></li>
+                <li><a class="navbar-link" href="#" id="nav-contacts">Contact Us</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--Nav bar End-->
+
+
+<!--Content-->
+<div id="content">
+    <!--Slider-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="static/images/slider/1.png"  class=" img-responsive" alt="Chania" >
+            </div>
+
+            <div class="item">
+                <img src="static/images/slider/2.jpg" class="img-responsive" alt="Chania" >
+            </div>
+
+            <div class="item">
+                <img src="static/images/slider/3.png" class="img-responsive" alt="Flower" >
+            </div>
+
+            <div class="item">
+                <img src="static/images/slider/4.jpg" class="img-responsive" alt="Flower">
+            </div>
+
+            <div id="content-about" class="carousel-caption" style="text-align: center">
+                <h1 style="font-weight: bolder">GOLAN TOURS</h1>
+                <h1>We are giving you the best tour in Sri Lanka</h1>
+                <a id="btn-take-tour" class="btn btn-default btn-lg" style="margin-bottom: 20px;">Take a Virtual Tour</a>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Slider End-->
+
+
+    <!-- Packages Begining-->
+    <div id="content-package" class="container" style=" margin-top: 30px; margin-bottom: 100px; text-align: center;">
+
+        <h1 style="margin-bottom: 50px; font-weight: bolder">PACKAGES</h1>
+
+        <div class="col-md-4 col-xs-12">
+            <div class="col-md-12 budget-circle" style="background: #00cb00">
+                <div class="budget-circle-div">
+                    <h3 class="budget-circle-h">Platinum</h3>
+                    <p>Starting from $60</p>
+                    <span class="glyphicon glyphicon-star" ></span><span class="glyphicon glyphicon-star" ></span><span class="glyphicon glyphicon-star" ></span><br>
+                    <a href="" class="btn btn-default">More Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+            <div class="col-md-12 budget-circle" style="background: rgba(0, 0, 255, 0.45)">
+                <div class="budget-circle-div">
+                    <h3 class="budget-circle-h">Gold</h3>
+                    <p>Starting from $30</p>
+                    <span class="glyphicon glyphicon-star" ></span><span class="glyphicon glyphicon-star" ></span><span class="glyphicon glyphicon-star-empty" ></span><br>
+                    <a href="" class="btn btn-default">More Details</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-xs-12">
+            <div class="col-md-12 budget-circle" style="background: rgba(255, 255, 0, 0.52)">
+                <div class="budget-circle-div">
+                    <h3 class="budget-circle-h">Silver</h3>
+                    <p>Starting from $15</p>
+                    <span class="glyphicon glyphicon-star" ></span><span class="glyphicon glyphicon-star-empty" ></span><span class="glyphicon glyphicon-star-empty" ></span><br>
+                    <a href="" class="btn btn-default">More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Packages End-->
+
+</div>
+<!--Content End-->
+
+<footer id="content-contacts" class="col-md-12 col-xs-12">
+    <div class="container">
+        <div class="col-md-6 col-xs-12" style="text-align: center;">
+            <h2>About Nishantha</h2>
+            <img src="static/images/profile.png" class="img-responsive" style="display: block; margin: auto">
+        </div>
+
+        <div class="col-md-6 col-xs-12">
+            <h2 style="font-weight: bolder; font-style: italic">Contact Us</h2>
+            <h2>Irunkail@gmail.com</h2>
+            <h2><span class="glyphicon glyphicon-phone"></span> +94712403314</h2><br>
+
+            <h3>Connect us via </h3>
+            <div id="footer-contacts">
+                <div class="col-xs-2"></div>
+
+                <div class="col-xs-8">
+                    <div class="col-xs-4 col-md-4"><img src="static/images/contact/whatsapp.png" class="img-responsive footer-contact-img" ></div>
+                    <div class="col-xs-4 col-md-4"><img src="static/images/contact/viber2.ico" class="img-responsive footer-contact-img"></div>
+                    <div class="col-xs-4 col-md-4"><img src="static/images/contact/Hangouts.png" class="img-responsive footer-contact-img"></div>
+                </div>
+
+                <div class="col-xs-2"></div>
+            </div>
+
+            <div class="col-md-12 col-xs-12" style="margin-top: 30px;">
+                <img src="static/images/contact/like_us_facebook.png" class="img-responsive footer-contact-img" style="height: 150px;">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+</body>
+</html>
