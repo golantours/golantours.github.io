@@ -23,9 +23,6 @@ $(document).ready( function(){
 
 
     $(window).scroll(function(e){
-        console.log( window.screen.width);
-        console.log( window.screen.height);
-
         if (window.screen.width > 699){
             if($(window).scrollTop() < 900){
                 $('.navbar').css({'margin-top':'0px'});
