@@ -5,3 +5,7 @@
 #accordion table tr th{
     font-size: 1.3em;
 }
+
+#content{
+    min-width: 600px;
+}

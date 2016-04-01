@@ -14,6 +14,7 @@ app.controller('populate_data', function($http, $scope){
         url:data_url
     }).then(
         function successCallback(response){
+            $('#loading-gif').remove();
             $scope.packages = response.data;
         },
 
