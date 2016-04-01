@@ -49,6 +49,7 @@
 
     #myCarousel{
         margin-top:100px;
+        max-height: 400px;
         /*background: black;*/
     }
 
@@ -130,9 +131,8 @@ body{
 }
 
 footer{
-    width: 500px;
     background: #a5a5a5;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     color: white;
     text-align: center;
 }
