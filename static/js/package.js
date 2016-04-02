@@ -2,6 +2,13 @@
  * Created by irunika on 4/1/16.
  */
 
+$(document).ready(function(){
+    window.onresize = function(){
+        $('#content').css('width', screen.width);
+    };
+});
+
+
 app = angular.module('packages', []);
 
 app.controller('populate_data', function($http, $scope){

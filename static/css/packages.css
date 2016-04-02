@@ -6,6 +6,16 @@
     font-size: 1.3em;
 }
 
-#content{
-    min-width: 600px;
+table{
+    background: rgba(180, 180, 180, 0.5);
+}
+
+#package-main-details{
+    background: rgba(224, 224, 224, 0.50);
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: rgba(97, 97, 97, 0.1);
 }
