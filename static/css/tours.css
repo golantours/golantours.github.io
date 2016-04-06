@@ -1,0 +1,25 @@
+#content{
+    margin-top: 80px;
+    min-height: 600px;
+}
+
+
+.jumbotron{
+    background: rgba(255, 255, 255, 0.40);
+}
+
+.jumbotron img{
+    max-height: 200px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+#day-changer{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#day-changer h3{
+    margin-top: 0px;
+    font-size: 1.5em;
+}

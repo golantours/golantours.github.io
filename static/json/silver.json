@@ -4,6 +4,7 @@
     "id":"910",
     "title":"9 nights 10 days",
     "name":"GOLAN GADOL TOUR",
+    "name_id":"golan",
     "pax":[
       {"pack":"2 pax 1 room", "price":"960"},
       {"pack":"3 pax 1 room", "price":"1140"},
@@ -17,6 +18,7 @@
     "id":"67",
     "title":"6 nights 7 days",
     "name":"YOFFI TOUR",
+    "name_id":"yoffi",
     "pax":[
       {"pack":"2 pax 1 room", "price":"670"},
       {"pack":"3 pax 1 room", "price":"760"},
@@ -30,6 +32,7 @@
     "id":"34",
     "title":"3 nights 4 days",
     "name":"KATHAN TOUR",
+    "name_id":"kathan",
     "pax":[
       {"pack":"2 pax 1 room", "price":"380"},
       {"pack":"3 pax 1 room", "price":"480"},
@@ -43,6 +46,7 @@
     "id":"23",
     "title":"2 nights 3 days",
     "name":"MAHER TOUR",
+    "name_id":"maher",
     "pax":[
       {"pack":"2 pax 1 room", "price":"280"},
       {"pack":"3 pax 1 room", "price":"380"},
