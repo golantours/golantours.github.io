@@ -44,8 +44,6 @@ $(document).ready(function(){
         $('#next-next-day').attr('disabled',false);
         $('#next-day').attr('disabled', false);
 
-        $('#day-indicator').text('day ' +  current_day + '/ day' + no_of_days);
-
         load_day(current_day);
     });
 
@@ -60,9 +58,34 @@ $(document).ready(function(){
         $('#prev-prev-day').attr('disabled', false);
         $('#prev-day').attr('disabled', false);
 
-        $('#day-indicator').text('day ' +  current_day + '/ day' + no_of_days);
+        //$('#day-indicator').text('day ' +  current_day + '/ day' + no_of_days);
 
         load_day(current_day);
+    });
+
+
+    $('.day-selector').click( function(){
+        var day = parseInt($(this).attr('day'));
+        current_day = day;
+
+        if(current_day === 1){
+            $('#prev-prev-day').attr('disabled','disabled');
+            $('#prev-day').attr('disabled','disabled');
+            $('#next-day').attr('disabled',false);
+        }
+
+        else if(current_day === no_of_days){
+            $('#next-next-day').attr('disabled','disabled');
+            $('#next-day').attr('disabled','disabled');
+            $('#prev-day').attr('disabled',false);
+        }
+
+        else{
+            $('#prev-prev-day').attr('disabled', false);
+            $('#prev-day').attr('disabled', false);
+        }
+
+        load_day(day);
     });
 
 
@@ -70,5 +93,11 @@ $(document).ready(function(){
 });
 
 var load_day  = function(day){
+
+    $('html, body').animate({
+        scrollTop: 0
+    }, 200);
+
+    $('#day-indicator').text('day ' +  current_day + '/ day' + no_of_days);
     $('#day_content').load(day+'.html');
 };

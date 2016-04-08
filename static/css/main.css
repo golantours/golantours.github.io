@@ -113,6 +113,9 @@ body{
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+
+    color: #3d3d3d;
+
 }
 
 
@@ -148,7 +151,7 @@ body{
 
 footer{
     background: rgba(0, 0, 0, 0.7);
-    color: white;
+    color: #e4e4e4;
 }
 
 
