@@ -60,14 +60,35 @@
         margin-bottom: 10px;
     }
 
+    #flags{
+        width: 65px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        background: rgba(16, 16, 16, 0.3);
+        position: fixed;
+        left: 10px;
+        top: 40%;
+        z-index: 10;
+    }
+
+    #flags img{
+        padding-bottom: 10px;
+    }
+
+    #content-special-package h1, #content-package h1{
+        font-size: 3.5em;
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.35);
+    }
+
 }
 
 
 
 @media only screen and (max-width: 767px){
     #myCarousel{
-        margin-top: 50px;
-        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-bottom: -120px;
     }
 
     .carousel-inner > .item > img {
@@ -76,7 +97,7 @@
     }
 
     #content-package{
-        margin-top: -50px;
+        padding-top: -100px;
     }
 
     .navbar-mid{
@@ -93,12 +114,30 @@
         margin-bottom: 10px;
     }
 
+    #flags {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 60px;
+        text-align: center;
+        background: rgba(57, 57, 57, 0.60);
+    }
+
+    #flags img{
+        width: 60px;
+        height: 35px;
+        display: inline-block;
+        margin: auto;
+    }
+
+    #content-special-package h1, #content-package h1{
+        text-shadow: 3px 3px rgba(0, 0, 0, 0.35);
+    }
 
 }
 
 @media only screen and (min-width: 1024px) {
     .carousel-inner > .item > img {
-        border: 10px solid rgba(0, 0, 0, 0.7);
+        border: 5px solid rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -179,5 +218,12 @@ footer{
 .note-alert{
     color: #e80000;
 }
+
+.carousel-caption{
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.70);
+    color: #e5e5e5;
+}
+
+
 
 

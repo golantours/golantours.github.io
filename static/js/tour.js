@@ -88,6 +88,8 @@ $(document).ready(function(){
         load_day(day);
     });
 
+    $('.img-responsive').magnificPopup({type:'image'});
+
 
 
 });
