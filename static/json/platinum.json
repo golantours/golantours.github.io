@@ -9,7 +9,7 @@
       {"pack":"3 pax 1 room", "price":"2230"},
       {"pack":"3+4 pax 2 room", "price":"3450"},
       {"pack":"5 pax 2 room", "price":"3900"},
-      {"pack":"5 pax 3 room", "price":"4350"}
+      {"pack":"5 pax 3 room", "price":"4750"}
     ]
   },
 
@@ -20,7 +20,7 @@
     "name_id":"yoffi",
     "pax":[
       {"pack":"2 pax 1 room", "price":"1320"},
-      {"pack":"3 pax 1 room", "price":"1400"},
+      {"pack":"3 pax 1 room", "price":"1480"},
       {"pack":"3+4 pax 2 room", "price":"2320"},
       {"pack":"5 pax 2 room", "price":"2580"},
       {"pack":"5 pax 3 room", "price":"3310"}
@@ -34,7 +34,7 @@
     "name_id":"kathan",
     "pax":[
       {"pack":"2 pax 1 room", "price":"690"},
-      {"pack":"3 pax 1 room", "price":"750"},
+      {"pack":"3 pax 1 room", "price":"790"},
       {"pack":"3+4 pax 2 room", "price":"1160"},
       {"pack":"5 pax 2 room", "price":"1280"},
       {"pack":"5 pax 3 room", "price":"1710"}
