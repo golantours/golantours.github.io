@@ -12,8 +12,8 @@
     }
 
     #navbar-brand-img{
-        min-height: 75px;
-        padding-top: 10px;
+        min-height: 90px;
+        padding-top: 0px;
     }
 
     #navbar-brand-text{
@@ -58,6 +58,7 @@
 
     .footer-contact-img{
         margin-bottom: 10px;
+        max-height: 60px;
     }
 
     #flags{
@@ -81,6 +82,12 @@
         text-shadow: 3px 3px rgba(0, 0, 0, 0.35);
     }
 
+    #facebook-find-us{
+        max-height: 50px;
+        margin-bottom: 5px;
+    }
+
+
 }
 
 
@@ -88,8 +95,9 @@
 @media only screen and (max-width: 767px){
 
     #navbar-brand-img{
-        height: 50px;
-        padding-top: 10px;
+        height: 80px;
+        padding-top: 0px;
+        margin-right: 0px;
     }
 
     #myCarousel{
@@ -137,6 +145,11 @@
 
     #content-special-package h1, #content-package h1{
         text-shadow: 3px 3px rgba(0, 0, 0, 0.35);
+    }
+
+    #facebook-find-us{
+        max-height: 50px;
+        margin-bottom: 5px;
     }
 
 }
@@ -199,6 +212,16 @@ footer{
     color: #e4e4e4;
 }
 
+#footer-copyright{
+    background: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+#footer-copyright p{
+    margin: 0px 0px auto;
+}
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
