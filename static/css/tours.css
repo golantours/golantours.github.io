@@ -43,6 +43,21 @@
     /*width: 50px;*/
 }
 
+figure{
+    margin-bottom: 10px;
+}
+
+figure img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure figcaption{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
 .day-content-title{
     background: white;
     padding-bottom: 5px;
